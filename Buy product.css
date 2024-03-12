@@ -41,7 +41,7 @@ input[type="Submit"] {
 	max-width: 270px;
 	background-color: lightsalmon;
 	cursor: pointer;
-	height: 26px;
+	height: 28px;
 	transition: 0.3s;
 }
 
@@ -51,6 +51,10 @@ input[type="Submit"]:hover {
 	
 	background-color: #FF8303;
 
+}
+
+.h6{
+	color: gray;
 }
 
 

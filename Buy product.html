@@ -34,7 +34,7 @@
 		<br>
 		<br>
 		<label>Address</label><br>
-		<input type="Address" name="data[Address]" required>
+		<input type="Address" name="data[Address]" maxlength="110" min="2" required>
 		<br>
 		<br>
 		<label>Product Buying</label> <br>
@@ -62,12 +62,15 @@
               response => response.json()
           ).then((html) => {
             // you can put any JS code here
-            window.open('popup.html', '_blank');
+            window.open('Success.html', '_blank');
 
           });
         });
 
         </script>
-        
+        <br>
+        <center>
+        <h5 class="h6">©Copyright Aazhi Since 2021</h5>
+        </center>
 </body>
 </html>
