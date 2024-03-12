@@ -1,0 +1,56 @@
+body{
+
+	background-color: #F5CCA0;
+
+}
+
+Input{
+
+	max-width: 250px;
+	height: 25px;
+	border-radius: 15px;
+	border: 0px;
+	text-align: center;
+
+}
+
+label{
+	color: #1A120B;
+	font-size: 23px;
+}
+
+select{
+
+	max-width: 250px;
+	height: 25px;
+	border-radius: 15px;
+	background-color: white;
+
+
+}
+
+input[type="Address"] {
+
+	max-width: 290px;
+	height: 40px;
+}
+
+          
+input[type="Submit"] {
+
+	max-width: 270px;
+	background-color: lightsalmon;
+	cursor: pointer;
+	height: 26px;
+	transition: 0.3s;
+}
+
+input[type="Submit"]:hover {
+
+	
+	
+	background-color: #FF8303;
+
+}
+
+
