@@ -25,6 +25,7 @@ select{
 	height: 25px;
 	border-radius: 15px;
 	background-color: white;
+	text-align: center;
 
 
 }
@@ -57,4 +58,14 @@ input[type="Submit"]:hover {
 	color: gray;
 }
 
+#Myselect{
 
+	max-width: 200px;
+	width: 170px;
+}
+
+input[name="Quantity"] {
+
+	max-width: 200px;
+	width: 170px;
+}

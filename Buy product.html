@@ -39,13 +39,26 @@
 		<br>
 		<label>Product Buying</label> <br>
 		<input readonly value="ABCD" type="text" name="data[Product]">
-           <h5>Check this once.</h5>
+		<br>
+		<br>
+		<label>Type</label><br>
+		<select name="data[Type]" id="Myselect" onchange="myfunction()" required>
+			<option></option>
+			<option id="Frame" onchange="youfunction()">Frame</option>
+			<option id="Digital" onchange="myfunction()">Digital</option>
+		</select>
+           <h3 id="Selection"></h3>
+           <label>Quantity</label><br>
+           <input type="number" name="Quantity" max="5" min="1">
            <br>
+           <br>
+
            <label>Payment(Cash On Delivery)</label><br>
            
            <input type="checkbox" name="data[Payment]" value="COD" required >
            <br><br>
            <input type="Submit" value="          Submit           " name="">
+
 
 
 	
@@ -64,8 +77,26 @@
             // you can put any JS code here
             window.open('Success.html', '_blank');
 
+            
+
           });
         });
+
+        function myfunction(){
+        
+
+        	let x = document.getElementById("Frame").value;
+      
+        	document.getElementById("Selection").innerHTML = " Price: " + " $20 "; 
+        }
+
+        function youfunction(){
+        	let x = document.getElementById("Frame").value;
+      
+        	document.getElementById("Selection").innerHTML = " Price: " + " $10 ";
+
+        }
+ 
 
         </script>
         <br>
