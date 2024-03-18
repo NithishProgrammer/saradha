@@ -1,0 +1,50 @@
+body{
+
+	background: #f4a460;
+}
+button{
+
+	background: #da8a67;
+	border-radius: 10px;
+	width: 140px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+button:hover {
+
+	background-color: #a0522d;
+	transform: scale(1.1);
+
+}
+
+.buywithgpay{
+
+	cursor: pointer;
+	width: 160px;
+	height: 50px;
+	transition: 0.3s;
+}
+
+.buywithgpay:hover {
+
+	transform: scale(1.1);
+}
+
+.trust:hover {
+
+transform: scale(0.9);
+	
+}
+
+.trust{
+	
+	width: 170px;
+	height: 150px;
+}
+
+img{
+
+	max-width: 370px;
+}
