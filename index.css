@@ -76,6 +76,12 @@ button:hover {
 @media (max-width: 400px) {
  div{
 
- 	height: 160px;
+ 	height: 320px;
+ }
+
+ button{
+
+ 	width: 140px;
+ 	height: 35px;
  }
 }
