@@ -43,6 +43,7 @@ button{
 	text-align: center;
 	}
 
+
 .hii{
 
 	max-width: 240px;
@@ -84,4 +85,10 @@ button:hover {
  	width: 140px;
  	height: 35px;
  }
+}
+
+.next{
+
+	text-align: right;
+	color: #65432;
 }
