@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Product (Frame)</title>
+	<link rel="stylesheet" type="text/css" href="Buy product(frame).css">
+	<link rel="icon" href="icon(product).png">
+	<center>
+		<img src="Product.png" width="300px" max-width="300px" >
+	</center>
+</head>
+<body>
+	<br>
+	<br>
+	<center>
+		<br>
+		<h2>Product Name</h2>
+		<br>
+	<form action="https://sheetdb.io/api/v1/vnxif713q1fql" method="post" id="sheetdb-form">
+		<label>Name</label><br>
+		<input type="text" name="data[Name]" required>
+		<br>
+		<br>
+		<label>Phone Number</label><br>
+		<input type="number" name="data[Phone]"requireds minlength="9" maxlength="10" required>
+		<br>
+		<br>
+		<label>Place</label><br>
+		<select required/ name="data[Place]">
+			<option></option>
+			<option>Puducherry</option>
+		</select>
+		<br>
+		<br>
+		<label>Address</label><br>
+		<input type="Address" name="data[Address]" maxlength="110" min="2" required>
+		<br>
+		<br>
+		<label>Product Buying</label> <br>
+		<input readonly value="ABCD" type="text" name="data[Product]">
+		<br>
+		<br>
+		<label>Type</label><br>
+		<select name="data[Type]" id="Myselect" onchange="myfunction()" required>
+			<option>Frame</option>
+			
+			
+		</select>
+           <h3 id="Selection"></h3>
+        <h4>Price: $20</h4>
+
+           <label>Payment(Cash On Delivery)</label><br>
+           
+           <input type="checkbox" name="data[Payment]" value="COD" required >
+           <br><br>
+           <input type="Submit" value="          Submit           " name="">
+
+
+
+	
+	</form>
+</center>
+<script>
+            var form = document.getElementById('sheetdb-form');
+        form.addEventListener("submit", e => {
+          e.preventDefault();
+          fetch(form.action, {
+              method : "POST",
+              body: new FormData(document.getElementById("sheetdb-form")),
+          }).then(
+              response => response.json()
+          ).then((html) => {
+            // you can put any JS code here
+            window.open('Success.html', '_blank');
+
+            
+
+          });
+        });
+
+        function myfunction(){
+        
+
+        	let x = document.getElementById("Frame").value;
+      
+        	document.getElementById("Selection").innerHTML = " Price: " + " $20 "; 
+        }
+
+        function youfunction(){
+        	let x = document.getElementById("Frame").value;
+      
+        	document.getElementById("Selection").innerHTML = " Price: " + " $10 ";
+
+        }
+ 
+
+        </script>
+        <br>
+        <center>
+        <h5 class="h6">&copy;Copyright Aazhi Since 2021</h5>
+        </center>
+</body>
+</html>
