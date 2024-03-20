@@ -1,0 +1,29 @@
+body{
+
+
+	background-color: #F5CCA0;
+}
+
+button{
+
+	max-width: 200px;
+	width: 180px;
+	height: 40px;
+	border-radius: 20px;
+	border: 0px;
+	cursor: pointer;
+	background-color: #FDA403;
+	transition: 0.3s;
+}
+
+button:hover {
+
+	background-color: #F6995C;
+	color: white;
+}
+
+img{
+
+	max-width: 800px;
+	height: 460px;
+}
