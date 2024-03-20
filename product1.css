@@ -10,7 +10,7 @@ button{
 	height: 35px;
 	cursor: pointer;
 	border-radius: 20px;
-	transition: 0.3s;
+	transition: 0.3s;border: 0px;
 }
 button:hover {
 
