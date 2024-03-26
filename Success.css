@@ -23,3 +23,16 @@ a{
 	text-decoration: none;
 	color: black;
 }
+
+.music{
+
+	max-width: 142px;
+	height: 40px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.music:hover {
+
+	transform: scale(1.1);
+}
