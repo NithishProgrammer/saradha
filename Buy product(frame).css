@@ -69,3 +69,8 @@ input[name="Quantity"] {
 	max-width: 200px;
 	width: 170px;
 }
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
