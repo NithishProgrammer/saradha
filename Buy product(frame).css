@@ -26,9 +26,14 @@ select{
 	border-radius: 15px;
 	background-color: white;
 	text-align: center;
-
-
 }
+
+.select-selected{
+
+	border-radius: 18px;
+	background: brown;
+}
+
 
 input[type="Address"] {
 
